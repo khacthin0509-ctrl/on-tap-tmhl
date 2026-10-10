@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Tập Trắc Nghiệm - Đề Số 1</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f4f6f8; margin: 0; padding: 15px; color: #333; }
+        .container { max-width: 700px; margin: 0 auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        h2 { text-align: center; color: #007aff; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #666; font-size: 14px; margin-bottom: 20px; }
+        .question { font-weight: bold; margin-bottom: 10px; margin-top: 20px; font-size: 15px; }
+        .options label { display: block; background: #f1f3f5; padding: 10px 12px; margin-bottom: 8px; border-radius: 8px; cursor: pointer; transition: 0.2s; font-size: 14px; }
+        .options input { margin-right: 10px; }
+        .options label:hover { background: #e2e6ea; }
+        .essay-box { width: 100%; height: 120px; padding: 10px; border: 1px solid #ccc; border-radius: 8px; font-family: inherit; font-size: 14px; box-sizing: border-box; resize: vertical; margin-top: 5px; }
+        button { display: block; width: 100%; background: #007aff; color: white; border: none; padding: 12px; font-size: 16px; font-weight: bold; border-radius: 8px; margin-top: 25px; cursor: pointer; }
+        button:active { background: #0056b3; }
+        #result { text-align: center; font-size: 18px; font-weight: bold; margin-top: 20px; color: #28a745; line-height: 1.5; }
+        .correct { background: #d4edda !important; color: #155724; border-color: #c3e6cb; }
+        .incorrect { background: #f8d7da !important; color: #721c24; border-color: #f5c6cb; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>ĐỀ SỐ 01 - ÔN TẬP TRẮC NGHIỆM</h2>
+    <div class="subtitle">Phần thi trắc nghiệm (30 câu) & Tự luận</div>
+    
+    <form id="quizForm">
+        <!-- Câu 1 -->
+        <div class="question">Câu 1: Điều lệnh quản lý bộ đội QĐNDVN năm 2026, quy định nội dung của Điều lệnh Quản lý bộ đội như thế nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q1" value="a"> a) Điều lệnh Quản lý bộ đội Quân đội nhân dân Việt Nam quy định những vấn đề chung nhất về nguyên tắc trong xây dựng và hoạt động...</label>
+            <label><input type="radio" name="q1" value="b" data-correct="true"> b) Quy định chức trách, mối quan hệ và lễ tiết, tác phong quân nhân; quy định các chế độ sinh hoạt, học tập công tác; quy định về tổ chức đóng quân...</label>
+            <label><input type="radio" name="q1" value="c"> c) Quy định mười lời thề danh dự, mười hai điều kỷ luật khi quan hệ với Nhân dân của quân nhân; lời tuyên thệ của học viên khi tốt nghiệp...</label>
+            <label><input type="radio" name="q1" value="d"> d) Cả 3 nội dung trên.</label>
+        </div>
+
+        <!-- Câu 2 -->
+        <div class="question">Câu 2: Quy tắc bảo đảm an toàn trong huấn luyện cấp chiến thuật, chiến dịch, trinh sát đặc nhiệm... năm 2012 quy định nguyên tắc bảo đảm an toàn khi huấn luyện TDTT như thế nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q2" value="a" data-correct="true"> a) Tự giác, tích cực; Trực quan; Hệ thống, khoa học.</label>
+            <label><input type="radio" name="q2" value="b"> b) Từ thấp đến cao; Từ dễ đến khó.</label>
+            <label><input type="radio" name="q2" value="c"> c) Cấp trên dạy cấp dưới, chỉ huy dạy đơn vị.</label>
+            <label><input type="radio" name="q2" value="d"> d) Trực quan; Khoa học; Thuần thục; An toàn.</label>
+        </div>
+
+        <!-- Câu 3 -->
+        <div class="question">Câu 3: Điều lệnh quản lý bộ đội QĐNDVN năm 2026, quy định vị trí của Quân đội nhân dân Việt Nam như thế nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a" data-correct="true"> a) Quân đội nhân dân Việt Nam là thành phần nòng cốt của lực lượng vũ trang nhân dân Việt Nam, đặt dưới sự lãnh đạo tuyệt đối, trực tiếp về mọi mặt của Đảng...</label>
+            <label><input type="radio" name="q3" value="b"> b) Tuyệt đối trung thành với Tổ quốc, với Đảng, Nhà nước và Nhân dân...</label>
+            <label><input type="radio" name="q3" value="c"> c) Xây dựng Quân đội cách mạng, chính quy, tinh nhuệ, hiện đại...</label>
+            <label><input type="radio" name="q3" value="d"> d) Lấy xây dựng chính trị làm cơ sở; có tổ chức, trang bị hiện đại...</label>
+        </div>
+
+        <!-- Câu 4 -->
+        <div class="question">Câu 4: Điều lệnh quản lý bộ đội QĐNDVN năm 2026, quy định đối tượng áp dụng của Điều lệnh Quản lý bộ đội như thế nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q4" value="a"> a) Được thi hành đối với sĩ quan, quân nhân chuyên nghiệp, hạ sĩ quan - binh sĩ và các tổ chức trong Quân đội.</label>
+            <label><input type="radio" name="q4" value="b"> b) Được áp dụng đối với công nhân và viên chức quốc phòng, lao động hợp đồng đang phục vụ trong các cơ quan, đơn vị Quân đội.</label>
+            <label><input type="radio" name="q4" value="c"> c) Được áp dụng đối với người làm việc trong tổ chức cơ yếu, trong Ban Cơ yếu Chính phủ thuộc thẩm quyền quản lý của Bộ trưởng Bộ Quốc phòng.</label>
+            <label><input type="radio" name="q4" value="d" data-correct="true"> d) Cả 3 đáp án trên.</label>
+        </div>
+
+        <!-- Câu 5 -->
+        <div class="question">Câu 5: Công văn số 6352/TM-QH ngày 25/6/2026 của Bộ Tham mưu Cảnh sát biển, nội dung số 1 là gì?</div>
+        <div class="options">
+            <label><input type="radio" name="q5" value="a"> a) Đối với Nam HSQ-CS: Thực hiện nghiêm việc cắt tóc 3 phân...</label>
+            <label><input type="radio" name="q5" value="b"> b) Đối với Nữ quân nhân khi mang mặc quân phục phải búi tóc...</label>
+            <label><input type="radio" name="q5" value="c"> c) Chấp hành nghiêm quy định về việc quản lý, sử dụng thiết bị điện tử thông minh...</label>
+            <label><input type="radio" name="q5" value="d" data-correct="true"> d) Quân nhân mang mặc quân phục theo đúng Điểm a, Mục 2, Điều 32: Phong cách quân nhân...</label>
+        </div>
+
+        <!-- Câu 6 -->
+        <div class="question">Câu 6: Theo Điều lệnh tàu Cảnh sát biển Việt Nam xuất bản năm 2018, số hiệu chiến đấu 5-12-11 được hiểu là:</div>
+        <div class="options">
+            <label><input type="radio" name="q6" value="a"> a) Số thứ tự 5, vị trí chiến đấu số 1 ngành 2, ban 1 người số 1 trong ban</label>
+            <label><input type="radio" name="q6" value="b"> b) Số thứ tự 5, vị trí chiến đấu số 12, ban 1 người số 1 trong ban</label>
+            <label><input type="radio" name="q6" value="c"> c) Ngành 5, vị trí chiến đấu số 12, ban 1 người số 1 trong ban</label>
+            <label><input type="radio" name="q6" value="d" data-correct="true"> d) Ngành 5, vị trí chiến đấu số 12, ban 11</label>
+        </div>
+
+        <!-- Câu 7 -->
+        <div class="question">Câu 7: Hướng dẫn số 10945/HD-TM ngày 17/12/2025 của Bộ Tham mưu Cảnh sát biển, quy định thời gian tổng hợp số liệu tình hình chấp hành kỷ luật của tháng tính từ ngày nào đến ngày nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q7" value="a" data-correct="true"> a) Tính từ ngày 20 của tháng trước đến ngày 19 của tháng sau.</label>
+            <label><input type="radio" name="q7" value="b"> b) Tính từ ngày 29 của tháng trước đến ngày 28 của tháng sau.</label>
+            <label><input type="radio" name="q7" value="c"> c) Tính từ ngày 18 của tháng trước đến ngày 17 của tháng sau.</label>
+            <label><input type="radio" name="q7" value="d"> d) Tính từ ngày 21 của tháng trước đến ngày 20 của tháng sau.</label>
+        </div>
+
+        <!-- Câu 8 -->
+        <div class="question">Câu 8: Theo Điều lệnh tàu Cảnh sát biển Việt Nam xuất bản năm 2018, huấn luyện chiến thuật vòng tổng hợp gồm bao nhiêu nội dung?</div>
+        <div class="options">
+            <label><input type="radio" name="q8" value="a"> a) 3 nội dung.</label>
+            <label><input type="radio" name="q8" value="b"> b) 4 nội dung.</label>
+            <label><input type="radio" name="q8" value="c" data-correct="true"> c) 5 nội dung.</label>
+            <label><input type="radio" name="q8" value="d"> d) 6 nội dung.</label>
+        </div>
+
+        <!-- Câu 9 -->
+        <div class="question">Câu 9: Quy tắc bảo đảm an toàn trong huấn luyện cấp chiến thuật... năm 2012, quy định nguyên tắc bảo đảm an toàn khi huấn luyện TDTT như thế nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q9" value="a"> a) Trước khi huấn luyện phải tổ chức khởi động; Kết thúc huấn luyện phải tổ chức hồi tĩnh, thả lỏng.</label>
+            <label><input type="radio" name="q9" value="b"> b) Tự giác, tích cực; Trực quan; Hệ thống, khoa học.</label>
+            <label><input type="radio" name="q9" value="c"> c) Không huấn luyện, kiểm tra, thi đấu khi sức khoẻ không bảo đảm</label>
+            <label><input type="radio" name="q9" value="d" data-correct="true"> d) Cả 3 nội dung trên.</label>
+        </div>
+
+        <!-- Câu 10 -->
+        <div class="question">Câu 10: Điều lệnh quản lý bộ đội QĐNDVN năm 2026, quy định Quân nhân có mấy chức trách?</div>
+        <div class="options">
+            <label><input type="radio" name="q10" value="a"> a) Có 7 chức trách.</label>
+            <label><input type="radio" name="q10" value="b" data-correct="true"> b) Có 8 chức trách.</label>
+            <label><input type="radio" name="q10" value="c"> c) Có 9 chức trách.</label>
+            <label><input type="radio" name="q10" value="d"> d) Có 10 chức trách.</label>
+        </div>
+
+        <!-- Câu 11 -->
+        <div class="question">Câu 11: Công văn số 2138/TH-QH ngày 12/3/2026 quy định các hành vi bị nghiêm cấm nào sau đây?</div>
+        <div class="options">
+            <label><input type="radio" name="q11" value="a"> a) Người chỉ huy và cơ quan chuyên môn định kỳ hoặc đột xuất kiểm tra việc chấp hành...</label>
+            <label><input type="radio" name="q11" value="b"> b) Chỉ được sử dụng thiết bị điện tử thông minh cá nhân vào thời gian hoạt động ngoại khóa...</label>
+            <label><input type="radio" name="q11" value="c" data-correct="true"> c) Tự ý tạo lập và cung cấp thông tin cá nhân với tư cách quân nhân có nội dung tiêu cực, phản cảm lên các trang thông tin điện tử, các mạng xã hội...</label>
+            <label><input type="radio" name="q11" value="d"> d) Trong quản lý việc sử dụng thiết bị điện tử thông minh phải tôn trọng và bảo vệ quyền riêng tư...</label>
+        </div>
+
+        <!-- Câu 12 -->
+        <div class="question">Câu 12: Theo điều 182, mục 1, chương VI của Điều lệnh tàu Cảnh sát biển Việt Nam 2018, thời gian bắt đầu điểm quân số hàng ngày là:</div>
+        <div class="options">
+            <label><input type="radio" name="q12" value="a"> a) Trước 20h45 và không quá 20 phút</label>
+            <label><input type="radio" name="q12" value="b"> b) Trước 21h00 và không quá 30 phút</label>
+            <label><input type="radio" name="q12" value="c"> c) Trước 21h30 và không quá 20 phút</label>
+            <label><input type="radio" name="q12" value="d" data-correct="true"> d) Trước 21h30 và không quá 30 phút</label>
+        </div>
+
+        <!-- Câu 13 -->
+        <div class="question">Câu 13: Điều lệnh quản lý bộ đội QĐNDVN năm 2026, quy định chức trách số 2 của Quân nhân là?</div>
+        <div class="options">
+            <label><input type="radio" name="q13" value="a"> a) Thực hiện đúng mười lời thề danh dự và mười hai điều kỷ luật...</label>
+            <label><input type="radio" name="q13" value="b" data-correct="true"> b) Tuyệt đối phục tùng lãnh đạo, chỉ huy, chấp hành nghiêm mệnh lệnh, chỉ thị của cấp trên và điều lệnh, điều lệ, chế độ, quy định của Quân đội.</label>
+            <label><input type="radio" name="q13" value="c"> c) Tích cực học tập chính trị, quân sự, văn hóa...</label>
+            <label><input type="radio" name="q13" value="d"> d) Giữ gìn đoàn kết nội bộ, đề cao tự phê bình và phê bình...</label>
+        </div>
+
+        <!-- Câu 14 -->
+        <div class="question">Câu 14: Chỉ thị 79/CT-BQP ngày 22/7/2022 của Bộ trưởng BQP về xây dựng đơn vị VMTD “mẫu mực, tiêu biểu” có những tiêu chuẩn nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q14" value="a" data-correct="true"> a) (1) Vững mạnh về chính trị; (2) thực hiện nghiêm túc công tác tổ chức lực lượng; huấn luyện, đào tạo giỏi; duy trì nghiêm nền nếp chế độ sẵn sàng chiến đấu; (3) xây dựng chính quy, quản lý kỷ luật tốt và đẩy mạnh cải cách hành chính quân sự; (4) Thực hiện tốt công tác hậu cần, kỹ thuật, tài chính và kế hoạch đầu tư.</label>
+            <label><input type="radio" name="q14" value="b"> b) Thiếu cụm từ đào tạo giỏi hoặc cải cách hành chính.</label>
+            <label><input type="radio" name="q14" value="c"> c) Thiếu cải cách hành chính quân sự.</label>
+            <label><input type="radio" name="q14" value="d"> d) Thiếu kế hoạch đầu tư.</label>
+        </div>
+
+        <!-- Câu 15 -->
+        <div class="question">Câu 15: Theo Điều lệnh tàu Cảnh sát biển Việt Nam xuất bản năm 2018, cửa khoang, buồng chứa vật chất nguy hiểm, được viết tắt là?</div>
+        <div class="options">
+            <label><input type="radio" name="q15" value="a"> a) A</label>
+            <label><input type="radio" name="q15" value="b"> b) D</label>
+            <label><input type="radio" name="q15" value="c" data-correct="true"> c) G</label>
+            <label><input type="radio" name="q15" value="d"> d) H</label>
+        </div>
+
+        <!-- Câu 16 -->
+        <div class="question">Câu 16: Thông tư 143/2023/TT-BQP quy định quyền tạm đình chỉ công tác đối với người vi phạm thuộc quyền quản lý là người giữ chức vụ nào dưới đây?</div>
+        <div class="options">
+            <label><input type="radio" name="q16" value="a"> a) Đại đội trưởng, chính trị viên đại đội và tương đương trở lên.</label>
+            <label><input type="radio" name="q16" value="b" data-correct="true"> b) Tiểu đoàn trưởng, chính trị viên tiểu đoàn và tương đương trở lên.</label>
+            <label><input type="radio" name="q16" value="c"> c) Trung đoàn trưởng, chính ủy trung đoàn và tương đương trở lên.</label>
+            <label><input type="radio" name="q16" value="d"> d) Sư đoàn trưởng, chính ủy sư đoàn và tương đương trở lên.</label>
+        </div>
+
+        <!-- Câu 17 -->
+        <div class="question">Câu 17: Theo Chỉ thị số 4890/CT-CSB ngày 10/6/2025 của Tư lệnh Cảnh sát biển, nội dung thứ nhất là nội dung nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q17" value="a" data-correct="true"> a) Cấp ủy, chỉ huy, đội ngũ cán bộ các cấp thường xuyên quán triệt, giáo dục và chấp hành nghiêm pháp luật Nhà nước...</label>
+            <label><input type="radio" name="q17" value="b"> b) Tăng cường sự lãnh đạo, chỉ đạo trực tiếp của cấp ủy đảng các cấp...</label>
+            <label><input type="radio" name="q17" value="c"> c) Tiếp tục các biện pháp nâng cao chất lượng quản lý kỷ luật...</label>
+            <label><input type="radio" name="q17" value="d"> d) Các cơ quan, đơn vị chấp hành nghiêm quy định báo cáo kỷ luật...</label>
+        </div>
+
+        <!-- Câu 18 -->
+        <div class="question">Câu 18: Thông tư 143/2023/TT-BQP ngày 27/12/2023 của BQP quy định có bao nhiêu hình thức kỷ luật đối với sỹ quan?</div>
+        <div class="options">
+            <label><input type="radio" name="q18" value="a"> a) 05 hình thức.</label>
+            <label><input type="radio" name="q18" value="b"> b) 06 hình thức.</label>
+            <label><input type="radio" name="q18" value="c"> c) 07 hình thức.</label>
+            <label><input type="radio" name="q18" value="d" data-correct="true"> d) 08 hình thức.</label>
+        </div>
+
+        <!-- Câu 19 -->
+        <div class="question">Câu 19: Theo Quyết định 14544/QĐ-BTL ngày 26/12/2023, cán bộ ăn nghỉ tại gia đình phải có mặt ngay theo lệnh gọi khi có nhiệm vụ khẩn cấp trong bao lâu?</div>
+        <div class="options">
+            <label><input type="radio" name="q19" value="a"> a) Chậm nhất 20 phút.</label>
+            <label><input type="radio" name="q19" value="b" data-correct="true"> b) Chậm nhất 30 phút.</label>
+            <label><input type="radio" name="q19" value="c"> c) Chậm nhất 40 phút.</label>
+            <label><input type="radio" name="q19" value="d"> d) Chậm nhất 60 phút.</label>
+        </div>
+
+        <!-- Câu 20 -->
+        <div class="question">Câu 20: Thông tư 143/2023/TT-BQP quy định đối với sỹ quan có những hình thức kỷ luật nào sau đây?</div>
+        <div class="options">
+            <label><input type="radio" name="q20" value="a" data-correct="true"> a) Khiển trách; cảnh cáo; hạ bậc lương; giáng chức; cách chức; giáng cấp bậc quân hàm; tước quân hàm sỹ quan; tước danh hiệu quân nhân.</label>
+            <label><input type="radio" name="q20" value="b"> b) Thiếu giáng chức.</label>
+            <label><input type="radio" name="q20" value="c"> c) Thiếu tước quân hàm sĩ quan.</label>
+            <label><input type="radio" name="q20" value="d"> d) Thiếu tước danh hiệu quân nhân.</label>
+        </div>
+
+        <!-- Câu 21 -->
+        <div class="question">Câu 21: Đánh giá trình độ thể lực trong năm đối với nam quân nhân dưới 36 tuổi phải kiểm tra bao nhiêu tiêu chuẩn rèn luyện thể lực?</div>
+        <div class="options">
+            <label><input type="radio" name="q21" value="a" data-correct="true"> a) 5 tiêu chuẩn.</label>
+            <label><input type="radio" name="q21" value="b"> b) 4 tiêu chuẩn.</label>
+            <label><input type="radio" name="q21" value="c"> c) 3 tiêu chuẩn.</label>
+            <label><input type="radio" name="q21" value="d"> d) 6 tiêu chuẩn.</label>
+        </div>
+
+        <!-- Câu 22 -->
+        <div class="question">Câu 22: Năm 2026, đối tượng sỹ quan dưới 45 tuổi bắn súng ngắn bài nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q22" value="a" data-correct="true"> a) Bài 2.</label>
+            <label><input type="radio" name="q22" value="b"> b) Bài 2b.</label>
+            <label><input type="radio" name="q22" value="c"> c) Bài 1.</label>
+            <label><input type="radio" name="q22" value="d"> d) Bài 1b.</label>
+        </div>
+
+        <!-- Câu 23 -->
+        <div class="question">Câu 23: Thông tư 118/2023/TT-BQP quy định việc xét tặng danh hiệu thi đua đối với cá nhân mới tuyển dụng, tập thể mới thành lập như thế nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q23" value="a"> a) Dưới 09 tháng.</label>
+            <label><input type="radio" name="q23" value="b"> b) Dưới 08 tháng.</label>
+            <label><input type="radio" name="q23" value="c"> c) Dưới 07 tháng.</label>
+            <label><input type="radio" name="q23" value="d" data-correct="true"> d) Dưới 06 tháng.</label>
+        </div>
+
+        <!-- Câu 24 -->
+        <div class="question">Câu 24: Thông tư 143/2023/TT-BQP quy định người chỉ huy lợi dụng chức vụ, quyền hạn làm sai nguyên tắc hoặc ra mệnh lệnh vượt quá quyền hạn thì bị kỷ luật hình thức nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q24" value="a" data-correct="true"> a) Khiển trách hoặc cảnh cáo.</label>
+            <label><input type="radio" name="q24" value="b"> b) Giáng chức.</label>
+            <label><input type="radio" name="q24" value="c"> c) Cách chức.</label>
+            <label><input type="radio" name="q24" value="d"> d) Giáng cấp bậc quân hàm.</label>
+        </div>
+
+        <!-- Câu 25 -->
+        <div class="question">Câu 25: Theo mục 23 Chương II của Điều lệnh tàu Cảnh sát biển Việt Nam xuất bản năm 2018, trực ban tàu có bao nhiêu nhiệm vụ?</div>
+        <div class="options">
+            <label><input type="radio" name="q25" value="a"> a) 6 nhiệm vụ.</label>
+            <label><input type="radio" name="q25" value="b"> b) 7 nhiệm vụ.</label>
+            <label><input type="radio" name="q25" value="c"> c) 8 nhiệm vụ.</label>
+            <label><input type="radio" name="q25" value="d" data-correct="true"> d) 9 nhiệm vụ.</label>
+        </div>
+
+        <!-- Câu 26 -->
+        <div class="question">Câu 26: Thông tư 143/2023/TT-BQP quy định người chỉ huy trực tiếp và trên một cấp bao che cho hành vi vi phạm... thì bị kỷ luật bằng hình thức nào dưới đây?</div>
+        <div class="options">
+            <label><input type="radio" name="q26" value="a"> a) Cảnh cáo.</label>
+            <label><input type="radio" name="q26" value="b"> b) Giáng cấp bậc quân hàm.</label>
+            <label><input type="radio" name="q26" value="c"> c) Giáng chức.</label>
+            <label><input type="radio" name="q26" value="d" data-correct="true"> d) Từ hạ bậc lương, giáng cấp bậc quân hàm, giáng chức, cách chức đến giáng cấp bậc quân hàm.</label>
+        </div>
+
+        <!-- Câu 27 -->
+        <div class="question">Câu 27: Theo Hướng dẫn số 3064/HD-TM ngày 12/4/2025, đơn vị từ cấp nào phải xây dựng kế hoạch canh phòng?</div>
+        <div class="options">
+            <label><input type="radio" name="q27" value="a" data-correct="true"> a) Đơn vị cấp Hải đội, Trạm CSB và tương đương đóng quân độc lập; Hải đoàn.</label>
+            <label><input type="radio" name="q27" value="b"> b) Đơn vị cấp Tàu và tương đương trở lên.</label>
+            <label><input type="radio" name="q27" value="c"> c) Đơn vị cấp Hải đội, Hải đoàn.</label>
+            <label><input type="radio" name="q27" value="d"> d) Đơn vị cấp Hải đội.</label>
+        </div>
+
+        <!-- Câu 28 -->
+        <div class="question">Câu 28: Điều lệnh quản lý bộ đội QĐNDVN năm 2026, quy định quyền và nghĩa vụ của Quân nhân như thế nào?</div>
+        <div class="options">
+            <label><input type="radio" name="q28" value="a" data-correct="true"> a) Quân nhân có các quyền và nghĩa vụ như mọi công dân Việt Nam được quy định trong Hiến pháp...</label>
+            <label><input type="radio" name="q28" value="b"> b) Thực hiện đúng mười lời thề danh dự...</label>
+            <label><input type="radio" name="q28" value="c"> c) Tích cực học tập chính trị, quân sự...</label>
+            <label><input type="radio" name="q28" value="d"> d) Gương mẫu chấp hành pháp luật của Nhà nước...</label>
+        </div>
+
+        <!-- Câu 29 -->
+        <div class="question">Câu 29: Số lượng đạn khi bắn súng ngắn bài 2b là bao nhiêu viên?</div>
+        <div class="options">
+            <label><input type="radio" name="q29" value="a"> a) 20 viên.</label>
+            <label><input type="radio" name="q29" value="b" data-correct="true"> b) 22 viên</label>
+            <label><input type="radio" name="q29" value="c"> c) 30 viên</label>
+            <label><input type="radio" name="q29" value="d"> d) 32 viên</label>
+        </div>
+
+        <!-- Câu 30 -->
+        <div class="question">Câu 30: Nam quân nhân từ 36 đến 45 tuổi, có chỉ số kiểm tra nào sau đây thì đánh giá trình độ thể lực xếp loại Giỏi?</div>
+        <div class="options">
+            <label><input type="radio" name="q30" value="a" data-correct="true"> a) 80% nội dung Giỏi, 20% nội dung Đạt.</label>
+            <label><input type="radio" name="q30" value="b"> b) 60% nội dung Giỏi, 40% nội dung Khá.</label>
+            <label><input type="radio" name="q30" value="c"> c) 90% nội dung Giỏi, 10% nội dung Đạt.</label>
+            <label><input type="radio" name="q30" value="d"> d) Cả 3 phương án.</label>
+        </div>
+
+        <!-- Phần Tự Luận -->
+        <div class="question" style="margin-top: 30px; color: #007aff;">PHẦN THI: TỰ LUẬN</div>
+        <div class="question">Câu hỏi: Đồng chí hiểu như thế nào về huấn luyện tàu (khái niệm, đối tượng, điều kiện, phân loại) được quy định trong Điều lệnh tàu Cảnh sát biển Việt Nam xuất bản năm 2018 ban hành kèm theo Quyết định số 03/QĐ-BTL? Nêu thực trạng, giải pháp để nâng cao chất lượng huấn luyện tàu tại đơn vị đồng chí?</div>
+        <textarea class="essay-box" placeholder="Nhập câu trả lời tự luận của đồng chí vào đây..."></textarea>
+
+        <button type="button" onclick="checkAnswers()">Nộp Bài & Xem Kết Quả</button>
+    </form>
+    
+    <div id="result"></div>
+</div>
+
+<script>
+    function checkAnswers() {
+        const totalQuestions = 30;
+        let score = 0;
+
+        for (let i = 1; i <= totalQuestions; i++) {
+            const radios = document.getElementsByName('q' + i);
+            let answered = false;
+
+            for (let r of radios) {
+                const parentLabel = r.parentElement;
+                // Reset styles
+                parentLabel.classList.remove('correct', 'incorrect');
+
+                if (r.checked) {
+                    answered = true;
+                    if (r.getAttribute('data-correct') === 'true') {
+                        score++;
+                        parentLabel.classList.add('correct');
+                    } else {
+                        parentLabel.classList.add('incorrect');
+                    }
+                } else {
+                    if (r.getAttribute('data-correct') === 'true') {
+                        // Highlight correct answer if user got it wrong or skipped
+                        // parentLabel.classList.add('correct');
+                    }
+                }
+            }
+        }
+
+        const resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = `🎯 Kết quả trắc nghiệm của đồng chí: ${score} / ${totalQuestions} câu đúng!<br><span style="font-size: 14px; font-weight: normal; color: #555;">(Các đáp án đúng đã được tô màu xanh, đáp án sai của bạn được tô màu đỏ).</span>`;
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
